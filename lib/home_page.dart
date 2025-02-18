@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Color.fromARGB(255, 214, 211, 203),
         body: Center(
-          child: Text("hdfdhjkdfh"),
+          child: Text("hCenter"),
         ),
       ),
     );
