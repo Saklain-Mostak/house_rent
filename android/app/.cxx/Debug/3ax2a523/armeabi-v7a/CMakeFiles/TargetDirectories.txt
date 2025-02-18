@@ -1,0 +1,2 @@
+D:/apps2024/idr/house_rent/android/app/.cxx/Debug/3ax2a523/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/apps2024/idr/house_rent/android/app/.cxx/Debug/3ax2a523/armeabi-v7a/CMakeFiles/rebuild_cache.dir

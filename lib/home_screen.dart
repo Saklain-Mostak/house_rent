@@ -8,6 +8,20 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ZoomDrawer(menuScreen: MenuDrawer(), mainScreen: HomePage());
+    return ZoomDrawer(
+      angle: 0,
+      controller: ZoomDrawerController(),
+      menuScreen: const MenuDrawer(),
+      mainScreen: const HomePage(),
+      clipMainScreen: true,
+      menuScreenTapClose: false,
+      menuScreenWidth: double.maxFinite,
+      menuScreenOverlayColor: const Color(0xFF0A8ED9),
+      mainScreenOverlayColor: Colors.white,
+      mainScreenTapClose: true,
+      mainScreenScale: 0.2,
+      mainScreenAbsorbPointer: true,
+      borderRadius: 16,
+    );
   }
 }
