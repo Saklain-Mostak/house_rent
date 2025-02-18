@@ -110,6 +110,7 @@ class DrawerItem extends StatelessWidget {
                 contentPadding: EdgeInsets.zero,
                 leading: SvgPicture.asset(
                   icon,
+                  // ignore: deprecated_member_use
                   color:colorController.getTextColor(index),
                   width: 24,
                   height: 24,

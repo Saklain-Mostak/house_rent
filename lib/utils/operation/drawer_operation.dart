@@ -1,16 +1,20 @@
-// import 'package:get/get.dart';
-// import 'package:ird_foundation/controller/drawer_item_color_controller.dart';
+// ignore_for_file: constant_identifier_names
 
-// final colorController = Get.put(ColorController());
+class Constant1{
+  //home -page icon -path
 
-// void handleDrawerItemTap(int index) {
-//   colorController.changeColor(index);
-//   print("Tapped on item index: $index");
+  static const  ic_bath="assets/icon/home_page_icon/IC_Bath.svg";
+  static const  ic_bed="assets/icon/home_page_icon/IC_Bed.svg";
+  static const  ic_filter="assets/icon/home_page_icon/IC_Filter.svg";
+  static const  IC_Notification="assets/icon/home_page_icon/IC_Notification.svg";
+  static const  ic_search="assets/icon/home_page_icon/IC_Search.svg";
+  static const  ic_arrow_down="assets/icon/IC_Arrow down.svg";
 
-  
-//   if (index == 0) {
-//     print("Navigate to Home");
-//   } else if (index == 1) {
-//     print("Navigate to Profile");
-//   }
-// }
+
+  //Home Page Image
+
+static const ascot_house="assets/image/home_page_image/ascot house.png";
+static const dreamsvulle_house="assets/image/home_page_image/dreamsvulle house.png";
+static const the_holly_house="assets/image/home_page_image/the hollies house.png";
+
+}
