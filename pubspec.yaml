@@ -38,6 +38,7 @@ dependencies:
   flutter_zoom_drawer: ^3.2.0
   flutter_svg: ^2.0.17
   get: ^4.7.2
+  flutter_screenutil: ^5.9.3
 
 dev_dependencies:
   flutter_test:
