@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 import 'package:ird_foundation/screen/home_screen/home_page/home_page.dart';
-import 'package:ird_foundation/menu_drawer.dart';
+import 'package:ird_foundation/screen/menu_drawer.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

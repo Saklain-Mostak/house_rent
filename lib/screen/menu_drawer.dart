@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ird_foundation/comon_widgets/drawer_item.dart';
 import 'package:ird_foundation/controller/drawer_item_color_controller.dart';
+import 'package:ird_foundation/utils/operation/constant_image_icon.dart';
 
 class MenuDrawer extends StatelessWidget {
   const MenuDrawer({super.key});
@@ -50,7 +51,7 @@ class MenuDrawer extends StatelessWidget {
                     height: 20,
                   ),
                   DrawerItem(
-                    icon: "assets/icon/IC_Location.svg",
+                    icon: IC_Location,
                     text: "NearBy",
                     index: 2,
                     ontap: () {
